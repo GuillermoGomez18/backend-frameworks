@@ -1,15 +1,15 @@
-import type { Task } from '../models/task.js';
+import type { Task } from "../models/task.js";
 export const tasks: Task[] = [
- {
- id: 1,
- title: 'Configurar el proyecto backend',
- status: 'completed',
- createdAt: new Date()
- },
- {
- id: 2,
- title: 'Practicar TypeScript',
- status: 'pending',
- createdAt: new Date()
-  }
+  {
+    id: 1,
+    title: "Configurar Express",
+    status: "completed",
+    createdAt: new Date(),
+  },
+  {
+    id: 2,
+    title: "Probar la API con Postman",
+    status: "pending",
+    createdAt: new Date(),
+  },
 ];
